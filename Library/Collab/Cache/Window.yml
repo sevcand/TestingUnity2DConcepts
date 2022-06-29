@@ -1,0 +1,494 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Animations.meta
+    - Assets/Animations/Colors.anim
+    - Assets/Animations/Colors.anim.meta
+    - Assets/Animations/Elmas.controller
+    - Assets/Animations/Elmas.controller.meta
+    - Assets/Animations/Engel 1.controller
+    - Assets/Animations/Engel 1.controller.meta
+    - Assets/Animations/IdleAnim.anim
+    - Assets/Animations/IdleAnim.anim.meta
+    - Assets/Animations/JumpAnim.anim
+    - Assets/Animations/JumpAnim.anim.meta
+    - Assets/Animations/Rotation.anim
+    - Assets/Animations/Rotation.anim.meta
+    - Assets/CasualGameSounds.meta
+    - Assets/CasualGameSounds/DM-CGS-01.wav
+    - Assets/CasualGameSounds/DM-CGS-01.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-02.wav
+    - Assets/CasualGameSounds/DM-CGS-02.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-03.wav
+    - Assets/CasualGameSounds/DM-CGS-03.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-04.wav
+    - Assets/CasualGameSounds/DM-CGS-04.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-05.wav
+    - Assets/CasualGameSounds/DM-CGS-05.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-06.wav
+    - Assets/CasualGameSounds/DM-CGS-06.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-07.wav
+    - Assets/CasualGameSounds/DM-CGS-07.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-08.wav
+    - Assets/CasualGameSounds/DM-CGS-08.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-09.wav
+    - Assets/CasualGameSounds/DM-CGS-09.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-10.wav
+    - Assets/CasualGameSounds/DM-CGS-10.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-11.wav
+    - Assets/CasualGameSounds/DM-CGS-11.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-12.wav
+    - Assets/CasualGameSounds/DM-CGS-12.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-13.wav
+    - Assets/CasualGameSounds/DM-CGS-13.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-14.wav
+    - Assets/CasualGameSounds/DM-CGS-14.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-15.wav
+    - Assets/CasualGameSounds/DM-CGS-15.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-16.wav
+    - Assets/CasualGameSounds/DM-CGS-16.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-17.wav
+    - Assets/CasualGameSounds/DM-CGS-17.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-18.wav
+    - Assets/CasualGameSounds/DM-CGS-18.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-19.wav
+    - Assets/CasualGameSounds/DM-CGS-19.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-20.wav
+    - Assets/CasualGameSounds/DM-CGS-20.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-21.wav
+    - Assets/CasualGameSounds/DM-CGS-21.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-22.wav
+    - Assets/CasualGameSounds/DM-CGS-22.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-23.wav
+    - Assets/CasualGameSounds/DM-CGS-23.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-24.wav
+    - Assets/CasualGameSounds/DM-CGS-24.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-25.wav
+    - Assets/CasualGameSounds/DM-CGS-25.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-26.wav
+    - Assets/CasualGameSounds/DM-CGS-26.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-27.wav
+    - Assets/CasualGameSounds/DM-CGS-27.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-28.wav
+    - Assets/CasualGameSounds/DM-CGS-28.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-29.wav
+    - Assets/CasualGameSounds/DM-CGS-29.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-30.wav
+    - Assets/CasualGameSounds/DM-CGS-30.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-31.wav
+    - Assets/CasualGameSounds/DM-CGS-31.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-32.wav
+    - Assets/CasualGameSounds/DM-CGS-32.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-33.wav
+    - Assets/CasualGameSounds/DM-CGS-33.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-34.wav
+    - Assets/CasualGameSounds/DM-CGS-34.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-35.wav
+    - Assets/CasualGameSounds/DM-CGS-35.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-36.wav
+    - Assets/CasualGameSounds/DM-CGS-36.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-37.wav
+    - Assets/CasualGameSounds/DM-CGS-37.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-38.wav
+    - Assets/CasualGameSounds/DM-CGS-38.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-39.wav
+    - Assets/CasualGameSounds/DM-CGS-39.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-40.wav
+    - Assets/CasualGameSounds/DM-CGS-40.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-41.wav
+    - Assets/CasualGameSounds/DM-CGS-41.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-42.wav
+    - Assets/CasualGameSounds/DM-CGS-42.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-43.wav
+    - Assets/CasualGameSounds/DM-CGS-43.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-44.wav
+    - Assets/CasualGameSounds/DM-CGS-44.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-45.wav
+    - Assets/CasualGameSounds/DM-CGS-45.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-46.wav
+    - Assets/CasualGameSounds/DM-CGS-46.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-47.wav
+    - Assets/CasualGameSounds/DM-CGS-47.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-48.wav
+    - Assets/CasualGameSounds/DM-CGS-48.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-49.wav
+    - Assets/CasualGameSounds/DM-CGS-49.wav.meta
+    - Assets/CasualGameSounds/DM-CGS-50.wav
+    - Assets/CasualGameSounds/DM-CGS-50.wav.meta
+    - Assets/CasualGameSounds/license.pdf
+    - Assets/CasualGameSounds/license.pdf.meta
+    - Assets/Characters.meta
+    - Assets/Characters/RunAnim.anim
+    - Assets/Characters/RunAnim.anim.meta
+    - Assets/Characters/WalkAnim.anim
+    - Assets/Characters/WalkAnim.anim.meta
+    - Assets/Characters/character_femaleAdventurer_sheetHD.png
+    - Assets/Characters/character_femaleAdventurer_sheetHD.png.meta
+    - Assets/Characters/character_femaleAdventurer_sheetHD_24.controller
+    - Assets/Characters/character_femaleAdventurer_sheetHD_24.controller.meta
+    - Assets/Characters/character_femaleAdventurer_sheetHD_43.controller
+    - Assets/Characters/character_femaleAdventurer_sheetHD_43.controller.meta
+    - Assets/Free 2D Adventure Beach Pack.meta
+    - Assets/Free 2D Adventure Beach Pack/Example.meta
+    - Assets/Free 2D Adventure Beach Pack/Example/Example.unity
+    - Assets/Free 2D Adventure Beach Pack/Example/Example.unity.meta
+    - Assets/Free 2D Adventure Beach Pack/Example/ExampleSettings.lighting
+    - Assets/Free 2D Adventure Beach Pack/Example/ExampleSettings.lighting.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-mountain-01.png
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-mountain-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-sky.png
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-sky.png.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/sea.png
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/sea.png.meta
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png
+    - Assets/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-01.png
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-03.png
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-03.png.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-mountain-01.png
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-mountain-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-sky.png
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-sky.png.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-sea.png
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-sea.png.meta
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-wave-01.png
+    - Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-wave-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-01.png
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-03.png
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-03.png.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-mountain-01.png
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-mountain-01.png.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-sky.png
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-sky.png.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-sea.png
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-sea.png.meta
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-wave-01.png
+    - Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-wave-01.png.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Canvas.prefab
+    - Assets/Prefabs/Canvas.prefab.meta
+    - Assets/Prefabs/Circle.prefab
+    - Assets/Prefabs/Circle.prefab.meta
+    - Assets/Prefabs/Diamond.prefab
+    - Assets/Prefabs/Diamond.prefab.meta
+    - Assets/Prefabs/Hero Variant.prefab
+    - Assets/Prefabs/Hero Variant.prefab.meta
+    - Assets/Prefabs/Hero.prefab
+    - Assets/Prefabs/Hero.prefab.meta
+    - Assets/Prefabs/Image.prefab
+    - Assets/Prefabs/Image.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/1.unity
+    - Assets/Scenes/1.unity.meta
+    - Assets/Scenes/2.unity
+    - Assets/Scenes/2.unity.meta
+    - Assets/Scenes/Finish.unity
+    - Assets/Scenes/Finish.unity.meta
+    - Assets/Scenes/GameOver.unity
+    - Assets/Scenes/GameOver.unity.meta
+    - Assets/Scenes/Start.unity
+    - Assets/Scenes/Start.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/CharacterController2.cs
+    - Assets/Scripts/CharacterController2.cs.meta
+    - Assets/Scripts/CharacterMovement.cs
+    - Assets/Scripts/CharacterMovement.cs.meta
+    - Assets/Scripts/Engel.cs
+    - Assets/Scripts/Engel.cs.meta
+    - Assets/Scripts/LivesControl.cs
+    - Assets/Scripts/LivesControl.cs.meta
+    - Assets/Scripts/NextLevel.cs
+    - Assets/Scripts/NextLevel.cs.meta
+    - Assets/Scripts/PlayerPoints.cs
+    - Assets/Scripts/PlayerPoints.cs.meta
+    - Assets/Scripts/Points.cs
+    - Assets/Scripts/Points.cs.meta
+    - Assets/Scripts/score.cs
+    - Assets/Scripts/score.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.mat.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/Textures.meta
+    - Assets/Textures/platformPack_tilesheet@2.png
+    - Assets/Textures/platformPack_tilesheet@2.png.meta
+    - Assets/Tilemaps.meta
+    - Assets/Tilemaps/MyPalette.prefab
+    - Assets/Tilemaps/MyPalette.prefab.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_0.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_0.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_1.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_1.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_10.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_10.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_11.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_11.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_12.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_12.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_13.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_13.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_14.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_14.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_15.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_15.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_16.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_16.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_17.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_17.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_18.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_18.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_19.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_19.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_2.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_2.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_20.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_20.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_21.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_21.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_22.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_22.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_23.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_23.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_24.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_24.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_25.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_25.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_26.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_26.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_27.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_27.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_28.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_28.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_29.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_29.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_3.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_3.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_30.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_30.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_31.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_31.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_32.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_32.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_33.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_33.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_34.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_34.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_35.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_35.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_36.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_36.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_37.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_37.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_38.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_38.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_39.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_39.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_4.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_4.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_40.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_40.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_41.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_41.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_42.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_42.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_43.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_43.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_44.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_44.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_45.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_45.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_46.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_46.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_47.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_47.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_48.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_48.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_49.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_49.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_5.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_5.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_50.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_50.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_51.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_51.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_52.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_52.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_53.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_53.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_54.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_54.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_55.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_55.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_56.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_56.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_57.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_57.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_58.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_58.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_59.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_59.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_6.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_6.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_60.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_60.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_61.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_61.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_62.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_62.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_63.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_63.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_64.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_64.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_65.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_65.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_66.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_66.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_67.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_67.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_68.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_68.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_69.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_69.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_7.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_7.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_70.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_70.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_71.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_71.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_72.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_72.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_73.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_73.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_79.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_79.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_8.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_8.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_80.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_80.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_81.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_81.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_82.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_82.asset.meta
+    - Assets/Tilemaps/platformPack_tilesheet@2_9.asset
+    - Assets/Tilemaps/platformPack_tilesheet@2_9.asset.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
